@@ -12,9 +12,17 @@ This Repo is for me to learn Go-Lang
 From the most basic to advance-ish
 
 ## How to run
-* Go in the folder you want too
-* Use the go command and type the file name
+* Change the current directory to the one you want to run
+* Use the go run command and type the file name
 ```
 cd any-folder/
-go file-name.go
+go run file-name.go
+```
+
+## How to build
+* Change the current directory to the one you want to run
+* Use the go build command and type the file name
+```
+cd any-folder/
+go build file-name.go
 ```
